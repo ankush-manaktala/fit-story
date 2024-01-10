@@ -1,0 +1,60 @@
+.cardContainer{
+   background-color: #ffffff;
+}
+
+.cardContainer:hover{
+    box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.22);
+}
+.foodHeader {
+  font-size: 18px;
+  font-weight: 700;
+  color: #2d303c;
+}
+.foodCalories {
+  font-size: 13px;
+  color: #76767a;
+}
+
+.foodContainer {
+  cursor: pointer;
+  align-items: center;
+  transition: border 0.15s ease-in-out;
+  border: solid 2px rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  padding: 5px;
+}
+.foodContainer:hover {
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12);
+  border: solid 2px rgba(240, 117, 79, 0.2);
+}
+.foodItemContainer {
+  margin-right: 10px;
+}
+.foodName {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #2d303c;
+  display: inline;
+}
+.quantity {
+  font-weight: 200;
+  letter-spacing: 0.3px;
+  color: #76767a;
+  font-size: 13px;
+}
+.toolTipContainer{
+  width: 200px;
+}
+.toolTipHeader{
+  border-bottom: 0.5px solid rgb(162, 158, 158);
+  padding: 5px;
+}
+
+.itemsRow{
+  justify-content: space-between;
+}
+.MuiTooltip-tooltip{
+  background-color: #2a2a2a;
+}

@@ -1,0 +1,161 @@
+{
+  "success": true,
+  "body": {
+    "widgets": [
+      {
+        "type": "header",
+        "subtype": "header",
+        "autoscroll": false,
+        "elements": [
+          {
+            "imageLink": "https://drive.google.com/file/d/1lwy4ML5-lNjZZydcLoTeiJktZUHP4vsa/view?usp=drive_link",
+            "title": "diet",
+            "cta": "/diet"
+          },
+          {
+            "imageLink": "https://drive.google.com/file/d/1-IJjo3u7CC5cPNbr0C2_GYmenMYOu4iD/view?usp=drive_link",
+            "title": "workout",
+            "cta": "/workout"
+          },
+          {
+            "imageLink": "https://drive.google.com/file/d/1NtHxOowOwZTqVOTbJRSAk42-AXAlC1VG/view?usp=drive_link",
+            "title": "report",
+            "cta": "/report"
+          },
+          {
+            "imageLink": "https://drive.google.com/file/d/1yswJmkcRMuBp9u3jBmoHKCmXfaRZnSma/view?usp=drive_link",
+            "title": "blog",
+            "cta": "/blog"
+          }
+        ]
+      },
+      {
+        "type": "imageCarousel",
+        "subtype": "images",
+        "autoscroll": true,
+        "elements": [
+          {
+            "imageLink": "https://drive.google.com/file/d/1mxp4nt9FCwOy0qIfybn3Rxz34fyUvuNO/view?usp=drive_link",
+            "cta": "/diet"
+          },
+          {
+            "imageLink": "https://drive.google.com/file/d/1w-viQ35W2qudaWYToAqffsjzkGlrIPt4/view?usp=drive_link",
+            "cta": "/workout"
+          },
+          {
+            "imageLink": "https://drive.google.com/file/d/1mxp4nt9FCwOy0qIfybn3Rxz34fyUvuNO/view?usp=drive_link",
+            "cta": "/report"
+          }
+        ]
+      },
+      {
+        "type": "blogs",
+        "subtype": "cards",
+        "elements": [
+          {
+            "title": "title1",
+            "author": "author1",
+            "subtitle": "subtitle1",
+            "cta": "/blog?blogId=1"
+          },
+          {
+            "title": "title2",
+            "author": "author2",
+            "subtitle": "subtitle2",
+            "cta": "/blog?blogId=2"
+          },
+          {
+            "title": "title3",
+            "author": "author3",
+            "subtitle": "subtitle3",
+            "cta": "/blog?blogId=3"
+          },
+          {
+            "title": "title4",
+            "author": "author4",
+            "subtitle": "subtitle4",
+            "cta": "/blog?blogId=4"
+          }
+        ]
+      },
+      {
+        "type": "footer",
+        "subtype": "cards",
+        "elements": [
+          {
+            "title": "Diet",
+            "subelements": [
+              {
+                "title": "footer1",
+                "cta": "/diet"
+              },
+              {
+                "title": "footer2",
+                "cta": "/diet"
+              },
+              {
+                "title": "footer3",
+                "cta": "/diet"
+              },
+              {
+                "title": "footer4",
+                "cta": "/diet"
+              }
+            ]
+          },
+          {
+            "title": "Workout",
+            "subelements": [
+              {
+                "title": "footer1",
+                "cta": "/workout"
+              },
+              {
+                "title": "footer2",
+                "cta": "/workout"
+              },
+              {
+                "title": "footer3",
+                "cta": "/workout"
+              },
+              {
+                "title": "footer4",
+                "cta": "/workout"
+              }
+            ]
+          },
+          {
+            "title": "BCA Report",
+            "subelements": [
+              {
+                "title": "footer1",
+                "cta": "/report"
+              },
+              {
+                "title": "footer2",
+                "cta": "/report"
+              },
+              {
+                "title": "footer3",
+                "cta": "/report"
+              },
+              {
+                "title": "footer4",
+                "cta": "/report"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "disclaimer",
+        "subtype": "disclaimer",
+        "elements": [
+          {
+            "title": "The information provided on this website is for general informational purposes only"
+          }
+        ]
+      }
+    ]
+  }
+}

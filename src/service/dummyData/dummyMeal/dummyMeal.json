@@ -1,0 +1,551 @@
+{
+    "statusCode": 200,
+    "body": {
+      "meals": [
+        {
+          "mealId": "5380aa60-f180-4922-966e-ceb8850d25dc",
+          "time": [
+            6,
+            30
+          ],
+          "diet": [
+            {
+              "item": {
+                "veg": true,
+                "serving": {
+                  "value": 100,
+                  "unit": "GRAM"
+                },
+                "name": "boiled potato",
+                "goal": [],
+                "notSuggestedFor": [
+                  "DIABETES"
+                ],
+                "maxDeviationAllowed": 0.5,
+                "description": "abc",
+                "ingredients": "boiled potato",
+                "carbsPerServing": {
+                  "value": 20.3,
+                  "unit": "GRAM"
+                },
+                "fatsPerServing": {
+                  "value": 0,
+                  "unit": "GRAM"
+                },
+                "proteinPerServing": {
+                  "value": 1.4,
+                  "unit": "GRAM"
+                },
+                "caloriesPerServing": {
+                  "value": 88,
+                  "unit": "KCAL"
+                },
+                "allergies": null,
+                "nutritionalValue": null,
+                "idealForMeal": [
+                  "PRE_WORKOUT",
+                  "LUNCH",
+                  "SNACK"
+                ],
+                "foodId": "boiled potato",
+                "cuisine": "indian",
+                "recipe": "",
+                "servingAdjustable": true
+              },
+              "quantity": {
+                "value": 73.89162561576354,
+                "unit": "GRAM"
+              }
+            }
+          ],
+          "mealType": "BREAKFAST",
+          "macros": {
+            "carbs": 15,
+            "proteins": 1,
+            "fats": 0,
+            "calories": 64
+          }
+        },
+        {
+          "mealId": "87acc51c-bb71-4eaa-aa59-58d901c47351",
+          "time": [
+            8,
+            30
+          ],
+          "diet": [
+            {
+              "item": {
+                "veg": true,
+                "serving": {
+                  "value": 250,
+                  "unit": "MILLILITRE"
+                },
+                "name": "oats, banana, peanut butter",
+                "goal": [],
+                "notSuggestedFor": [
+                  "DIABETES"
+                ],
+                "maxDeviationAllowed": 0.5,
+                "description": "abc",
+                "ingredients": "oats, banana, peanut butter",
+                "carbsPerServing": {
+                  "value": 49.3,
+                  "unit": "GRAM"
+                },
+                "fatsPerServing": {
+                  "value": 13.5,
+                  "unit": "GRAM"
+                },
+                "proteinPerServing": {
+                  "value": 9.6,
+                  "unit": "GRAM"
+                },
+                "caloriesPerServing": {
+                  "value": 350,
+                  "unit": "KCAL"
+                },
+                "allergies": null,
+                "nutritionalValue": null,
+                "idealForMeal": [
+                  "POST_WORKOUT",
+                  "SNACK",
+                  "BREAKFAST"
+                ],
+                "foodId": "oats, banana, peanut butter",
+                "cuisine": "indian",
+                "recipe": "",
+                "servingAdjustable": true
+              },
+              "quantity": {
+                "value": 130.20833333333334,
+                "unit": "MILLILITRE"
+              }
+            },
+            {
+              "item": {
+                "veg": true,
+                "serving": {
+                  "value": 36,
+                  "unit": "GRAM"
+                },
+                "name": "protein",
+                "goal": [],
+                "notSuggestedFor": [
+                  "DIABETES"
+                ],
+                "maxDeviationAllowed": 0.5,
+                "description": "abc",
+                "ingredients": "protein",
+                "carbsPerServing": {
+                  "value": 7,
+                  "unit": "GRAM"
+                },
+                "fatsPerServing": {
+                  "value": 3.5,
+                  "unit": "GRAM"
+                },
+                "proteinPerServing": {
+                  "value": 22,
+                  "unit": "GRAM"
+                },
+                "caloriesPerServing": {
+                  "value": 150,
+                  "unit": "KCAL"
+                },
+                "allergies": null,
+                "nutritionalValue": null,
+                "idealForMeal": [
+                  "POST_WORKOUT",
+                  "SNACK",
+                  "BREAKFAST"
+                ],
+                "foodId": "protien",
+                "cuisine": "indian",
+                "recipe": "",
+                "servingAdjustable": true
+              },
+              "quantity": {
+                "value": 36,
+                "unit": "GRAM"
+              }
+            }
+          ],
+          "mealType": "DINNER",
+          "macros": {
+            "carbs": 33,
+            "proteins": 27,
+            "fats": 11,
+            "calories": 339
+          }
+        },
+        {
+          "mealId": "70c90874-e4a1-4a57-b423-db6d0397465f",
+          "time": [
+            10,
+            30
+          ],
+          "diet": [
+            {
+              "item": {
+                "veg": true,
+                "serving": {
+                  "value": 5,
+                  "unit": "NO"
+                },
+                "name": "paneer",
+                "goal": [],
+                "notSuggestedFor": [
+                  "DIABETES"
+                ],
+                "maxDeviationAllowed": 0.5,
+                "description": "abc",
+                "ingredients": "paneer",
+                "carbsPerServing": {
+                  "value": 2.8,
+                  "unit": "GRAM"
+                },
+                "fatsPerServing": {
+                  "value": 26.5,
+                  "unit": "GRAM"
+                },
+                "proteinPerServing": {
+                  "value": 31.4,
+                  "unit": "GRAM"
+                },
+                "caloriesPerServing": {
+                  "value": 387,
+                  "unit": "KCAL"
+                },
+                "allergies": null,
+                "nutritionalValue": null,
+                "idealForMeal": [
+                  "LUNCH",
+                  "DINNER",
+                  "SNACK",
+                  "POST_WORKOUT"
+                ],
+                "foodId": "boiled eggs",
+                "cuisine": "indian",
+                "recipe": "",
+                "servingAdjustable": true
+              },
+              "quantity": {
+                "value": 2.5,
+                "unit": "NO"
+              }
+            },
+            {
+              "item": {
+                "veg": true,
+                "serving": {
+                  "value": 36,
+                  "unit": "GRAM"
+                },
+                "name": "protein",
+                "goal": [],
+                "notSuggestedFor": [
+                  "DIABETES"
+                ],
+                "maxDeviationAllowed": 0.5,
+                "description": "abc",
+                "ingredients": "protein",
+                "carbsPerServing": {
+                  "value": 7,
+                  "unit": "GRAM"
+                },
+                "fatsPerServing": {
+                  "value": 3.5,
+                  "unit": "GRAM"
+                },
+                "proteinPerServing": {
+                  "value": 22,
+                  "unit": "GRAM"
+                },
+                "caloriesPerServing": {
+                  "value": 150,
+                  "unit": "KCAL"
+                },
+                "allergies": null,
+                "nutritionalValue": null,
+                "idealForMeal": [
+                  "POST_WORKOUT",
+                  "SNACK",
+                  "BREAKFAST"
+                ],
+                "foodId": "protien",
+                "cuisine": "indian",
+                "recipe": "",
+                "servingAdjustable": true
+              },
+              "quantity": {
+                "value": 18,
+                "unit": "GRAM"
+              }
+            }
+          ],
+          "mealType": "BREAKFAST",
+          "macros": {
+            "carbs": 5,
+            "proteins": 27,
+            "fats": 15,
+            "calories": 263
+          }
+        },
+        {
+          "mealId": "c3994221-423e-466c-b587-676a5cb34d07",
+          "time": [
+            14,
+            30
+          ],
+          "diet": [
+            {
+              "item": {
+                "veg": true,
+                "serving": {
+                  "value": 100,
+                  "unit": "GRAM"
+                },
+                "name": "boiled potato",
+                "goal": [],
+                "notSuggestedFor": [
+                  "DIABETES"
+                ],
+                "maxDeviationAllowed": 0.5,
+                "description": "abc",
+                "ingredients": "boiled potato",
+                "carbsPerServing": {
+                  "value": 20.3,
+                  "unit": "GRAM"
+                },
+                "fatsPerServing": {
+                  "value": 0,
+                  "unit": "GRAM"
+                },
+                "proteinPerServing": {
+                  "value": 1.4,
+                  "unit": "GRAM"
+                },
+                "caloriesPerServing": {
+                  "value": 88,
+                  "unit": "KCAL"
+                },
+                "allergies": null,
+                "nutritionalValue": null,
+                "idealForMeal": [
+                  "PRE_WORKOUT",
+                  "LUNCH",
+                  "SNACK"
+                ],
+                "foodId": "boiled potato",
+                "cuisine": "indian",
+                "recipe": "",
+                "servingAdjustable": true
+              },
+              "quantity": {
+                "value": 50,
+                "unit": "GRAM"
+              }
+            }
+          ],
+          "mealType": "LUNCH",
+          "macros": {
+            "carbs": 10,
+            "proteins": 1,
+            "fats": 0,
+            "calories": 44
+          }
+        },
+        {
+          "mealId": "7da4256c-2d80-4ebd-aff0-caf7eb7b88e7",
+          "time": [
+            17,
+            30
+          ],
+          "diet": [
+            {
+              "item": {
+                "veg": true,
+                "serving": {
+                  "value": 36,
+                  "unit": "GRAM"
+                },
+                "name": "protein",
+                "goal": [],
+                "notSuggestedFor": [
+                  "DIABETES"
+                ],
+                "maxDeviationAllowed": 0.5,
+                "description": "abc",
+                "ingredients": "protein",
+                "carbsPerServing": {
+                  "value": 7,
+                  "unit": "GRAM"
+                },
+                "fatsPerServing": {
+                  "value": 3.5,
+                  "unit": "GRAM"
+                },
+                "proteinPerServing": {
+                  "value": 22,
+                  "unit": "GRAM"
+                },
+                "caloriesPerServing": {
+                  "value": 150,
+                  "unit": "KCAL"
+                },
+                "allergies": null,
+                "nutritionalValue": null,
+                "idealForMeal": [
+                  "POST_WORKOUT",
+                  "SNACK",
+                  "BREAKFAST"
+                ],
+                "foodId": "protien",
+                "cuisine": "indian",
+                "recipe": "",
+                "servingAdjustable": true
+              },
+              "quantity": {
+                "value": 36,
+                "unit": "GRAM"
+              }
+            }
+          ],
+          "mealType": "LUNCH",
+          "macros": {
+            "carbs": 7,
+            "proteins": 22,
+            "fats": 4,
+            "calories": 152
+          }
+        },
+        {
+          "mealId": "79b84c32-63cc-4521-bf83-e214bc24a6f4",
+          "time": [
+            20,
+            30
+          ],
+          "diet": [
+            {
+              "item": {
+                "veg": true,
+                "serving": {
+                  "value": 100,
+                  "unit": "GRAM"
+                },
+                "name": "paneer",
+                "goal": [],
+                "notSuggestedFor": [
+                  "DIABETES"
+                ],
+                "maxDeviationAllowed": 0.5,
+                "description": "abc",
+                "ingredients": "paneer",
+                "carbsPerServing": {
+                  "value": 1.2,
+                  "unit": "GRAM"
+                },
+                "fatsPerServing": {
+                  "value": 20.8,
+                  "unit": "GRAM"
+                },
+                "proteinPerServing": {
+                  "value": 18.3,
+                  "unit": "GRAM"
+                },
+                "caloriesPerServing": {
+                  "value": 265,
+                  "unit": "KCAL"
+                },
+                "allergies": null,
+                "nutritionalValue": null,
+                "idealForMeal": [
+                  "LUNCH",
+                  "DINNER",
+                  "SNACK"
+                ],
+                "foodId": "paneer",
+                "cuisine": "indian",
+                "recipe": "",
+                "servingAdjustable": true
+              },
+              "quantity": {
+                "value": 100,
+                "unit": "GRAM"
+              }
+            },
+            {
+              "item": {
+                "veg": true,
+                "serving": {
+                  "value": 5,
+                  "unit": "NO"
+                },
+                "name": "eggs",
+                "goal": [],
+                "notSuggestedFor": [
+                  "DIABETES"
+                ],
+                "maxDeviationAllowed": 0.5,
+                "description": "abc",
+                "ingredients": "eggs",
+                "carbsPerServing": {
+                  "value": 2.8,
+                  "unit": "GRAM"
+                },
+                "fatsPerServing": {
+                  "value": 26.5,
+                  "unit": "GRAM"
+                },
+                "proteinPerServing": {
+                  "value": 31.4,
+                  "unit": "GRAM"
+                },
+                "caloriesPerServing": {
+                  "value": 387,
+                  "unit": "KCAL"
+                },
+                "allergies": null,
+                "nutritionalValue": null,
+                "idealForMeal": [
+                  "LUNCH",
+                  "DINNER",
+                  "SNACK"
+                ],
+                "foodId": "",
+                "cuisine": "indian",
+                "recipe": "",
+                "servingAdjustable": true
+              },
+              "quantity": {
+                "value": 3.056603773584906,
+                "unit": "NO"
+              }
+            }
+          ],
+          "mealType": "DINNER",
+          "macros": {
+            "carbs": 3,
+            "proteins": 37,
+            "fats": 37,
+            "calories": 493
+          }
+        }
+      ],
+      "macros": {
+        "carbs": 73,
+        "proteins": 115,
+        "fats": 67,
+        "calories": 1355
+      },
+      "idealMacros": {
+        "carbs": 79,
+        "proteins": 106,
+        "fats": 72,
+        "calories": 1388
+      }
+    },
+    "errors": null,
+    "success": true
+  }
+  

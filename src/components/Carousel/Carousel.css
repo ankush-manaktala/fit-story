@@ -1,0 +1,6 @@
+.alice-carousel__wrapper{
+    @media screen and (max-width: 480px) {
+        padding-right: 0px !important;
+        padding-left: 0px !important;
+      }
+}

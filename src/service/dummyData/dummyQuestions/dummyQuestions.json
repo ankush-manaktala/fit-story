@@ -1,0 +1,56 @@
+{
+    "statusCode": 200,
+    "body": [
+      {
+        "statement": "LifeStyle type?",
+        "type": "RADIO",
+        "options": [
+          {
+            "displayName": "Active",
+            "parameterValue": "ACTIVE"
+          },
+          {
+            "displayName": "MODERATELY ACTIVE",
+            "parameterValue": "MODERATELY_ACTIVE"
+          },
+          {
+            "displayName": "Sedentary",
+            "parameterValue": "SEDENTARY"
+          }
+        ],
+        "id": "lifestyle"
+      },
+      {
+        "statement": "allergies?",
+        "type": "TEXT",
+        "options": [],
+        "id": "allergies"
+      },
+      {
+        "statement": "Fitness goal?",
+        "type": "DROPDOWN",
+        "options": [
+          {
+            "displayName": "FAT_LOSS",
+            "parameterValue": "ACTIVE"
+          },
+          {
+            "displayName": "MUSCLE_BUILDING",
+            "parameterValue": "MUSCLE_BUILDING"
+          },
+          {
+            "displayName": "GENERAL_FITNESS",
+            "parameterValue": "GENERAL_FITNESS"
+          },
+          {
+            "displayName": "SPORTS",
+            "parameterValue": "SPORTS"
+          }
+        ],
+        "id": "Fitness goal"
+      }
+    ],
+    "errors": null,
+    "success": true
+  }
+  

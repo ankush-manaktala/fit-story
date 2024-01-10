@@ -1,0 +1,12 @@
+.container{
+   background-color:  white;
+    padding: 0 9rem;
+    @media screen and (max-width: 600px) {
+        padding: 0px;
+      }
+}
+
+.css-3dzjca-MuiPaper-root-MuiPopover-paper-MuiMenu-paper{
+    top:60px !important;
+
+}

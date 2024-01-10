@@ -1,0 +1,26 @@
+/* eslint-disable */
+export const appConfig = {
+  API_URL: window.REACT_APP_PEPSICO_APP_API_URL,
+  API_KEY: window.REACT_APP_PEPSICO_APP_API_KEY,
+  API_SITE_ID: window.REACT_APP_PEPSICO_API_SITE_ID,
+  API_DEFAULT_LANGUAGE_CODE:
+    window.REACT_APP_PEPSICO_APP_SITE_DEFULT_LANGUAGE_CODE,
+  MOBILE_SUFFIX: "@pepsiconnect.com",
+  ENVIRONMENT: window.REACT_APP_ENVIRONMENT,
+  VERSION_NAME: window.REACT_APP_VERSION_NAME,
+  CAF_API_URL: window.CAF_API_URL,
+  GROWTH_BOOK_HOST: window?.REACT_APP_GROWTH_BOOK_HOST,
+  GROWTH_BOOK_CLIENT_KEY: window?.REACT_APP_GROWTH_BOOK_CLIENT_KEY,
+  APP_RUNTIME_KEY: window?.REACT_APP_RUNTIME_KEY,
+  APP_RUNTIME_ENV: window?.REACT_APP_RUNTIME_ENV,
+  APP_RUNTIME_VERSION: window?.REACT_APP_RUNTIME_VERSION,
+};
+
+
+export const mobilePrefix = () => {
+  if (window.REACT_APP_PEPSICO_API_SITE_ID.toString().length < 2) {
+    return "cep0" + window.REACT_APP_PEPSICO_API_SITE_ID + "-";
+  } else {
+    return "cep" + window.REACT_APP_PEPSICO_API_SITE_ID + "-";
+  }
+};

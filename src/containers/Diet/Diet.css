@@ -1,0 +1,33 @@
+.container {
+  background-color: #f9f8f7;
+}
+
+.todaysMeal {
+  color: #212529;
+  font-size: 20px;
+}
+
+.regenerate {
+  color: #98999e;
+  font-weight: 600;
+  font-size: 14px;
+}
+.calories{
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  
+}
+
+.calories:hover{
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22)
+}
+
+.caloriesFont {
+  color: #212529;
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+
