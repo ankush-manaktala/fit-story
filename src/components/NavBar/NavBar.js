@@ -59,7 +59,7 @@ const NavBar = ({ tabs = [] }) => {
       position="static"
     >
       <Container maxWidth="xl">
-        <Toolbar disableGutters sx={{ maxHeight: "88px" }}>
+        <Toolbar sx={{ maxHeight: "88px" }}>
           <Grid sx={{ mr: 8, display: { xs: "none", md: "flex" } }}>
             <img src={appLogo} alt="" width={150} height={100} />
           </Grid>
@@ -89,7 +89,7 @@ const NavBar = ({ tabs = [] }) => {
                       alignItems: "center",
                     }}
                   >
-                    <img src={tab?.imageLink} alt="" width={"20px"} />
+                    {/* <img src={tab?.imageLink} alt="" width={"20px"} /> */}
                     <Typography sx={{ fontSize: "1rem" }}>
                       {tab?.title}
                     </Typography>
@@ -100,7 +100,7 @@ const NavBar = ({ tabs = [] }) => {
             <Button
               onClick={handleLogin}
               variant="contained"
-              sx={{ backgroundColor: "black", mt: "10px", mb: "10px" }}
+              className="login"
             >
               Login / Signup
             </Button>
